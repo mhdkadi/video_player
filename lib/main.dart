@@ -51,7 +51,8 @@ class _MyHomePageState extends State<MyHomePage> {
       );
     }
 
-    await player.open(Media(''));
+    await player.open(Media(
+        'https://github.com/mhdkadi/video_player/blob/master/big_buck_bunny_480p_trailer.m4v'));
   }
 
   @override
